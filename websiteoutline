@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  </head>
+  <style>
+  .main{
+    background-color: lavender; 
+    font-family: Lora;
+  }
+  </style>
+
+  <body class="main">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Cathy D's</a>
+    </div>
+    <div id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class"dropdown-toggle" data-toggle="dropdown" href="#">Page 1<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        <li><a href="#">Page11</a></li>
+        <li><a href="#">Page12</a></li>
+        <li><a href="#">Page13</a></li>
+      </ul>
+    </li>
+      <li><a href="#">Page 2</a></li> 
+      <li><a href="#">Page 3</a></li> 
+    </ul>    
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+<br></br>
+<div class="alert alert-info fade in">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <strong>Info!</strong> If a square button appears in the menu, click it twice to collapse the bar :)
+</div>
+<br></br>
+
+  <div class="container-fluid">
+<div class="row">
+  <div class="col-md-4">
+    <a href="http://img.lum.dolimg.com/v1/images/open-uri20150608-27674-8axz7n_d1d7c2b1.jpeg" class="thumbnail">
+      <p>Eeyore quote</p> 
+      <img class="img-responsive" src="http://img.lum.dolimg.com/v1/images/open-uri20150608-27674-8axz7n_d1d7c2b1.jpeg" alt="Eeyore quote" style="width:300px;height:300px"/>
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="https://a.dilcdn.com/bl/wp-content/uploads/sites/25/2014/09/Eeyore_Umbrella.jpg" class="thumbnail">
+      <p>Eeyore's umbrella tail + wind</p>
+      <img class="img-responsive" src="https://a.dilcdn.com/bl/wp-content/uploads/sites/25/2014/09/Eeyore_Umbrella.jpg" alt="Eeyore's umbrella tail" style="width:300px;height:300px"/>
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="http://24.media.tumblr.com/0e1fef473931f3b670e71d0647dcfe47/tumblr_n1e47yjSwi1toamj8o1_500.gif" class="thumbnail">
+      <p>It's a gif!</p> 
+      <img class="img-responsive"src="http://24.media.tumblr.com/0e1fef473931f3b670e71d0647dcfe47/tumblr_n1e47yjSwi1toamj8o1_500.gif" alt="Tail's attached" style="width:300px;height:300px"/>
+    </a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <a href="http://s2.quickmeme.com/img/04/045c9c2f3dc4687f56bbd18fc57569aa47a9993c3ba2fe373decf0f6ef172f71.jpg" class="thumbnail">
+      <p>Eeyore meme</p> 
+      <img class="img-responsive" src="http://s2.quickmeme.com/img/04/045c9c2f3dc4687f56bbd18fc57569aa47a9993c3ba2fe373decf0f6ef172f71.jpg" alt="Eeyore meme" style="width:300px;height:300px"/>
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="https://s-media-cache-ak0.pinimg.com/236x/e2/80/08/e28008ea6a57f9afebd356afa1c4a47a.jpg" class="thumbnail">
+      <p>Eeyore's sunshine</p>
+      <img class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/236x/e2/80/08/e28008ea6a57f9afebd356afa1c4a47a.jpg" alt="Eeyore's sunshine" style="width:300px;height:300px"/>
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="https://wendywelchbigstonegap.files.wordpress.com/2015/03/meme-eeyore.jpg" class="thumbnail">
+      <p>Earthquake</p> 
+      <img class="img-responsive"src="https://wendywelchbigstonegap.files.wordpress.com/2015/03/meme-eeyore.jpg" alt="Earthquake" style="width:300px;height:300px"/>
+    </a>
+  </div>
+</div>
+
+  </body>
