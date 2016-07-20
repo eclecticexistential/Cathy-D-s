@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  </head>
+
+  <style>
+  .main{
+    background-color: lavender; 
+    font-family: Lora;
+  }
+  </style>
+
+<body>
+  <div class="container-fluid">
+    <div class="row" style="background-color:orange;">
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">1</div>
+    </div>
+    <div class="row" style="background-color:purple;">
+     <div class="col-sm-2">2</div>
+     <div class="col-sm-2">2</div>
+     <div class="col-sm-2">2</div>
+     <div class="col-sm-2">2</div>
+     <div class="col-sm-2">2</div>
+     <div class="col-sm-2">2</div>
+  </div>
+   <div class="row" style="background-color:red;">
+    <div class="col-sm-3">3</div>
+    <div class="col-sm-3">3</div>
+    <div class="col-sm-3">3</div>
+    <div class="col-sm-3">3</div>
+  </div>
+   <div class="row" style="background-color:blue;">
+    <div class="col-sm-4">4</div>
+    <div class="col-sm-4">4</div>
+    <div class="col-sm-4">4</div>
+  </div>
+  <div class="row" style="background-color:yellow;">
+    <div class="col-sm-6">6</div>
+    <div class="col-sm-6">6</div>
+  </div>
+  <div class="row" style="background-color:indigo;">
+    <div class="col-sm-4">4</div>
+    <div class="col-sm-8">8</div>
+  </div>
+  <div class="row" style="background-color:white, text-align:center;">
+    <div class="col-sm-12">12</div>
+     </div>
+   </div>
+</body>
