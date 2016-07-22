@@ -79,4 +79,8 @@
     <div class="col-sm-12">12</div>
      </div>
    </div>
+   <br></br>
+   <div class="row" style="background-color:maroon;">
+    <div class="col-sm-10, col-sm-offset-2">middle</div>
+  </div>
 </body>

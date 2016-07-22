@@ -97,7 +97,8 @@
 <h4>Do sway honshin formidably as the days rightfully pass, bringing new fortunes curiously as we stare through the looking glass. Supple information leaks, creating every tomorrow's past. Truth need be what we seek; a brighter yesterday at last! Hindsight's there for a reason, memories forgotten burn through, sticking themselves, like adhesion, transforming the self into someone new.</h4>
 </div>
 <br></br>
-<div>
+
+  <div class="container-fluid">
 <textarea class="middle" maxlength="180" rows="5" cols="50"></textarea>
 <button type="button" class="btn btn-warning">Respond</button>
 </div>

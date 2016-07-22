@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+<style>
+.no{
+  background-color: #276C96;
+  color: #965127;
+  font-size:24px;
+}
+.wonder{
+  text-align:center;
+  color: #349627;
+  font-size: 72px;
+}
+.truly{
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.3);
+  color:#882796;
+  text-align: center;
+}
+</style>
+<body class="no">
+  <h1 class="wonder">Free Will</h1>
+  <div class="truly">
+    <p>True free will, entails giving a human the opportunity to change the world anyway they see fit. Otherwise, we are all vulnerable to hitsuzen.</p>
+    <img src="http://67.media.tumblr.com/d740e9c448fb93d87f34ea2011dfa58e/tumblr_n8fq90s6qz1rabx7do1_500.jpg"/>
+    <h3 class="no"><strong>Hitsuzen</strong></h3>
+    <p>
+"A naturally foreordained event. A state in which other outcomes are impossible. A result which can only be obtained by a single causality, and all other causalities would necessarily create different results. So reads the Kodansha Japanese desk dictionary, second edition." - Yuko Ichihara, xxxHolic</p>
+  </div>
+  </body>
