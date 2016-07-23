@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+<style>
+.bro{
+  background: #663399;
+  font-family: Lora;
+  text-align: center;
+  margin: 0%, 40%;
+  padding: 10%;
+  font-size: 24px;
+}
+.here{
+  background-color: #B5D83C;
+  color: #E3D83F;
+}
+.col-4{
+  text-align:center;
+}
+</style>
+<body class="here">
+<nav class="navbar navbar-position-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebsiteName</a>
+    </div>
+    <div id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a href="#">Shop!</a></li>
+      <li class="active"><a href="#">Wishlist</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </nav>
+  <div class="container-fluid">
+  <div class="bro">Do sway honshin formidably as the days rightfully pass, bringing new fortunes curiously as we stare through the looking glass. Supple information leaks, creating every tomorrow's past, truth need be what we seek, a brighter yesterday at last! Hindsight's there for a reason, memories forgotten burn through, sticking themselves like adhesion, transforming the self into someone new!<br></br><img class= "img-responsive" style="margin:auto" src="http://www.honshin.com/HonShow04/b.jpg"></div>
+</div>
+</div>
+<div class="col-4">github &#9400 <script>document.write(new Date().getFullYear())</script>. All Rights Reserved</div>
+</body>
