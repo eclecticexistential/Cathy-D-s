@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<title>See?</title>
+</head>
+
+<style>
+html { 
+            background: url(http://miriadna.com/desctopwalls/images/max/Thick-clouds-layer.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+            -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+            }
+.nav{
+position: fixed;
+  background-color: #1531AE;
+  width:100%;
+  max-height: 40%;
+  margin: 0px;
+  padding: 2px;
+  color: #FFB400;
+border-radius: 5px;
+text-shadow: 1px 1px 5px #000000;
+}
+h2{
+  padding-left: 3%;
+}
+.log{
+text-align: right; 
+margin-top: -31px;
+padding-right: 30px;
+word-spacing: 10px;
+}
+
+.btn{color: #FFDD00;
+background-color: #4512AE;
+border-color: #FFDD00;
+  border-radius: 5px;
+}
+.won{
+  text-align:center;
+  margin: 30%;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  padding: 10px;
+  color: #FFB400;
+  font-size: 16px;
+  text-shadow: 1px 1px 8px #000000;
+}
+</style>
+
+<body class="html">
+<div class="nav">
+<h2>HomeGrown
+<div class="log">
+<button type="button" class="btn" onclick="alert('Welcome!')">Sign Up</button>
+<button type="button" class="btn" onclick="alert('Welcome friend!')">Login</button>
+  </div>
+</h2>
+</div>
+                <hr></hr>
+<div class="won">Do sway honshin formidably, as the days rightfully pass. <br>
+Bringing new fortunes curiously, as we stare through the looking glass. <br>
+Supple information leaks, creating every tomorrows past. <br> 
+Truth need be what we seek, a brighter yesterday at last! <br>Hindsight's there for a reason. <br>
+Memories forgotten burn through. <br> 
+Sticking themselves like adhesion. <br>
+Transforming the self into someone new!</div>
+</body>
+</html>
