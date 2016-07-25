@@ -10,13 +10,38 @@
 </head>
 <style>
   .main{
-    background-color: lavender; 
+    background-color: lavender;
     font-family: Lora;
   }
   .right{ display: inline-block;
+    margin-left: 80%; 
+  }
+  .left {background-color: #143758;
+    color:white;    
+    padding: 3px;
+    border-radius: 5px;
+  }
+  .try{ margin-right: 85%;    
+  }
+  body {
+    counter-reset: line;
+  }
+  p{
+    background-color: #663399;
+    color: #FFDD00;   
+    padding: 3px;
+    border-radius: 5px;
+  }
+  p::before{
+    counter-increment: line;
+    content: "Line " counter(line) ": ";
+  }
+  .navbg{
+    background-color: #006400;
   }
 </style>
 <nav class="navbar navbar-position-fixed-right">
+  <nav class="navbg">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">WebsiteName</a>
@@ -32,14 +57,50 @@
       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
   </nav>
+</nav>
 <body class="main">
 
 <div class="right">
+  <div class="left">
         <script>
         for (i=1; i<=10; i++) {
           document.write("How many times?     " + i + "<br>")       
         }
         </script>
         </div>
+      </div>
+      <hr></hr>
+        <div class="try">
+  <p>This is</p>
+  <p>how to count</p>
+  <p>with only</p>
+  <p>CSS</p>
+</div>
+<hr></hr>
+<div class="right">
+  <div class="left">
+<script>
+for (i=5; i<=10; i++){
+  document.write("This extra line " + i + " brought to you by js" + "<br>")}
+</script>
+</div>
+</div>
+<hr></hr>
+<div class="try">
+  <div class="left">
+  <script>
+  for (i=10; i>=1; i--){
+    document.write("Counting down... " + i + "<br>")
+  }
+  </script>
+</div>
+</div>
+<hr></hr>
+<div class="right">
+  <p>Back to counting with CSS</p>
+  <p>I wonder if there's a way to combine CSS counter with JS</p>
+  <p>JS takes less work to accomplish the counter</p>
+  <p>Only div's affect JS?</p>
+</div>
   </body>
 </html>
