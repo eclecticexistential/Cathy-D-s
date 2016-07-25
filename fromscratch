@@ -24,6 +24,7 @@ position: fixed;
   color: #FFB400;
 border-radius: 5px;
 text-shadow: 1px 1px 5px #000000;
+display: inline;
 }
 h2{
   padding-left: 3%;
@@ -31,8 +32,6 @@ h2{
 .log{
 text-align: right; 
 margin-top: -31px;
-padding-right: 30px;
-word-spacing: 10px;
 }
 
 .btn{color: #FFDD00;
