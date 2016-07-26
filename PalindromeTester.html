@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+.moon{
+  background-color: #204843;
+  text-align:center;
+}
+.btn{
+  background-color: #745D33;
+  color: #26244D;
+  border-color: #26244D;
+  width: 166px;
+}
+h1{
+  text-align:center;
+  color: #26244D;
+  text-shadow: 1px 1px 8px #745D33;
+}
+p{
+  text-align: center;
+  color: #26244D;
+  background-color: rgb(255,255,255);
+  background-color: rgba(255,255,255, 0.3);
+  margin:auto;
+  margin-left:40%;
+  margin-right:40%;
+}
+
+</style>
+<!-- script written originally on codepen work in body only -->
+<body class="moon">
+  <script>
+function palindrome(str) {
+var checkFor = /[\W_]/g;
+  var strAlt = str.toLowerCase().replace(checkFor, '');
+  var reverseStr = strAlt.split('').reverse().join(''); 
+  return reverseStr === strAlt;
+  
+}
+function myFunction() {
+  
+    var x = document.getElementById("myTextarea").value;
+    document.getElementById("answer").innerHTML = palindrome(x);
+}
+</script>
+    <h1>Palindrome Tester!</h1>
+<textarea id ="myTextarea"></textarea>
+<br></br>
+<button type="button" onclick="myFunction()" class="btn">Try it</button>
+<br></br>
+<p id="answer"></p>
+</body>
+</html>
