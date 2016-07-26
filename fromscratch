@@ -19,10 +19,9 @@ position: fixed;
   background-color: #1531AE;
   width:100%;
   max-height: 40%;
-  margin: 0px;
+  margin: -8px;
   padding: 2px;
   color: #FFB400;
-border-radius: 5px;
 text-shadow: 1px 1px 5px #000000;
 display: inline;
 }
@@ -32,6 +31,7 @@ h2{
 .log{
 text-align: right; 
 margin-top: -31px;
+padding-right: 30px;
 }
 
 .btn{color: #FFDD00;
@@ -69,5 +69,9 @@ Truth need be what we seek, a brighter yesterday at last! <br>Hindsight's there 
 Memories forgotten burn through. <br> 
 Sticking themselves like adhesion. <br>
 Transforming the self into someone new!</div>
+
+    <div class="won"; style="margin-top: -20%">
+      Do sway honshin formidably, as the days rightfully pass. Bringing new fortunes curiously as we stare through the looking glass. Supple information leaks, creating every tomorrow's past. Truth need be what we seek, a brighter yesterday at last! Hindsight's there for a reason, memories forgotten burn through. Sticking themselves like adhesion. Transforming the self into someone new!</div>
 </body>
+
 </html>
