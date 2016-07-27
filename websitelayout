@@ -20,7 +20,7 @@ li {
     display: inline-flex;
     list-style-type:none; 
     float: right;   
-    padding: 1%;
+    padding: 2%;
     margin:auto;
 }
 
@@ -28,17 +28,15 @@ li a {
     text-align: center; 
     display: inline-block;
     color: white;
-    padding:20%;
     text-decoration: none;
 }
 
 a:hover:not(.active) {
-    background-color: #111;
+    color: #111;
 }
 
 .active {
-
-background-color:#4CAF50;
+color:#4CAF50;
 }
 .cent{text-align:center;}
 
@@ -46,10 +44,10 @@ background-color:#4CAF50;
 </style>
 <div class="web">
 <ul>
-  <p class="th">EclecticExistential</p>
+  <p class="th" id="home">EclecticExistential</p>
   <li><a class="active" href="#home">Home</a></li>
-  <li style="margin-top:1px"><a href="#news">News</a></li>
-  <li style="margin-top:-3px"><a href="#contact">Contact</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
 </div>
