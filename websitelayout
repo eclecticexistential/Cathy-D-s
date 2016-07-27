@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang=eng>
+<head>
+<title>
+</title>
+</head>
+<style>
+.web{
+    margin: -15px;
+}
+.th{ font-size: 24px;
+    float: left;
+}
+ul{
+    overflow: hidden;
+    background-color: #333;
+}
+
+li { 
+    display: inline-flex;
+    list-style-type:none; 
+    float: right;   
+    padding: 1%;
+    margin:auto;
+}
+
+li a {
+    text-align: center; 
+    display: inline-block;
+    color: white;
+    padding:20%;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+
+background-color:#4CAF50;
+}
+.cent{text-align:center;}
+
+
+</style>
+<div class="web">
+<ul>
+  <p class="th">EclecticExistential</p>
+  <li><a class="active" href="#home">Home</a></li>
+  <li style="margin-top:1px"><a href="#news">News</a></li>
+  <li style="margin-top:-3px"><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</div>
+<body>
+<div class="wrapper">
+      <hr style="clear:both;">
+      <div style="width:30%;float:left;margin-right:10px;"><p>Do sway honshin formidably as the days rightfully pass, bringing new fortunes curiously as we stare through the looking glass. Supple information leaks, creating every tomorrow's past, truth need be what we seek, a brighter yesterday at last. Hindsight's there for a reason, memories forgotten burn through, sticking themselves like adhesion, transforming the self into someone new.</p></div>
+      <div style="width:50%;float:left;">
+        <p>Do sway honshin formidably as the days rightfully pass, bringing new fortunes curiously as we stare through the looking glass. Supple information leaks, creating every tomorrow's past, truth need be what we seek, a brighter yesterday at last. Hindsight's there for a reason, memories forgotten burn through, sticking themselves like adhesion, transforming the self into someone new.</p></div>
+</body>
